@@ -7,9 +7,9 @@ def oxford_comma(array)
     return_string << " and "
     return_string << array[1]
   else
-    
+
   end
-  ", "
+
 
   return return_string
 end
