@@ -6,6 +6,7 @@ def oxford_comma(array)
     return_string << array[0]
     return_string << " and "
     return_string << array[1]
+    return return_string
   else
 
   end
