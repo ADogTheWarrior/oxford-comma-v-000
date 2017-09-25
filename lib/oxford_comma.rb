@@ -20,7 +20,7 @@ def oxford_comma(array)
     end
       return_string << " and "
       return_string << array.last
-    
+
     return return_string
   end
 
