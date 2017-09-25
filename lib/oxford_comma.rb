@@ -13,10 +13,12 @@ def oxford_comma(array)
   else
     iterator = 0
     while (iterator + 1) < array.size
+      return_string << array[0]
+      return_string << ", "
       
+      iterator += 1
     end
     return return_string
-    
   end
 
   return return_string
