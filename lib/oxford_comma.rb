@@ -18,7 +18,7 @@ def oxford_comma(array)
 
       iterator += 1
     end
-      return_string << " and "
+      return_string << "and "
       return_string << array.last
 
     return return_string
